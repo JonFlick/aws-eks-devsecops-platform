@@ -43,8 +43,16 @@ module "eks" {
   }
 
   enable_cluster_creator_admin_permissions = true
+
+ enable_irsa = true
 }
 
 output "cluster_name" {
   value = module.eks.cluster_name
+}
+
+output "oidc_provider_arn" {
+  value = module.eks.oidc_provider_arn
+
+
 }
