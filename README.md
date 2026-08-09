@@ -14,8 +14,8 @@ In progress — currently building **Phase 1: Infrastructure Foundation**
 
 ## Phases
 - [x] VPC (network foundation)
-- [ ] EKS cluster + managed node group
-- [ ] IRSA (IAM Roles for Service Accounts)
+- [x] EKS cluster + managed node group
+- [x] IRSA (IAM Roles for Service Accounts)
 - [ ] Sample application deployment
 - [ ] Observability (Prometheus/Grafana)
 - [ ] Basic CI/CD pipeline
